@@ -1,9 +1,13 @@
-import React from 'react';
+import React from 'react'
+import { Routing } from './routing'
+import BackgroundLayout from './layouts/backgroundLayout'
 
 function App() {
-  return (
-    <>хуй хуй хуй хуй хуй</>
-  );
+    return (
+        <BackgroundLayout theme={'dark'}>
+            <Routing />
+        </BackgroundLayout>
+    )
 }
 
-export default App;
+export default App

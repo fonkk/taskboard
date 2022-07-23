@@ -1,0 +1,6 @@
+import React from 'react'
+import Auth from '../../components/auth'
+
+export const AuthPage = () => {
+    return <Auth />
+}
